@@ -114,7 +114,7 @@ var honerGoods05 = [
 	'price':'¥3399'
 },
 {
-	'src':'img/Honer/jiaJu01.png',
+	'src':'img/Honer/jiaJu02.jpg',
 	'title':'荣耀8X',
 	'price':'¥1399'
 }
