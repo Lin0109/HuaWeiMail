@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>手机列表</title>
+		<link rel="Shortcut icon" href="logo.ico" />
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="commonCss/header.css" />
+		<link rel="stylesheet" href="commonCss/hungBar.css" />
+		<link rel="stylesheet" href="commonCss/footer.css" />
+		<link rel="stylesheet" href="css/goodsList.css" />
+		<script type="text/javascript" src="js/jquery.js" ></script>
+		<script type="text/javascript" src="js/goodsList.js" ></script>
+		<script type="text/javascript" src="js/goodsArr.js" ></script>
+	</head>
+	<body>
+		<div class="header"></div>
+		<div class="hr10"></div>
+		<div class="c">
+			<div class="titleArea fn">
+				<a href="index.html">首页</a>
+				&nbsp;>&nbsp;
+				<span>手机</span>
+			</div>
+		</div>
+		<div class="hr10"></div>
+		<div class="c pro">
+			<div class="proArea">
+				<div class="proAttr">
+					<div class="pTitle">分类：</div>
+					<div class="pValues">
+						<ul>
+							<li class="active"><a href="#">全部</a></li>
+							<li><a href="#">荣耀</a></li>
+							<li><a href="#">HUAWEI P系列</a></li>
+							<li><a href="#">荣耀畅玩系列</a></li>
+							<li><a href="#">HUAWEI Mate系列</a></li>
+							<li><a href="#">HUAWEI nova系列</a></li>
+							<li><a href="#">华为畅享系列</a></li>
+							<li><a href="#">HUAWEI 麦芒系列</a></li>
+							<li><a href="#">移动4G+专区</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="proSort">
+					<div class="pTitle">排序：</div>
+					<div class="pValues">
+						<ul>
+							<li class="active">
+								<a href="#">上架时间</a>
+								<i></i>
+							</li>
+							<li>
+								<a href="#">价格</a>
+								<i></i>
+							</li>
+							<li>
+								<a href="#">评价数</a>
+								<i></i>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="c">
+			<div class="channelList">
+				<ul></ul>
+				<div class="listPage">
+					<li class="nextPage" id="first">|<</li>
+					<li class="nextPage">></li>
+					<a href="#" class="active">1</a>
+					<a href="#">2</a>
+					<a href="#">3</a>
+					<li class="nextPage last">></li>
+					<li class="nextPage last">>|</li>
+				</div>
+			</div>
+		</div>
+		
+		<div class="hr10"></div>
+		<div class="hr10"></div>
+		<div id="hungBar"></div>
+		<footer></footer>
+		<script>
+			$('.header').load("commonHtml/header.html");
+			$('#hungBar').load("commonHtml/hungBar.html")
+			$('footer').load("commonHtml/footer.html");
+		</script>
+	</body>
+</html>

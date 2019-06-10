@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+		<link rel="Shortcut icon" href="logo.ico" />
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="commonCss/header.css" />
+		<link rel="stylesheet" href="commonCss/footer.css" />
+		<link rel="stylesheet" href="css/login.css" />
+		<script type="text/javascript" src="js/jquery.js" ></script>
+		<script type="text/javascript" src="js/login.js" ></script>
+	</head>
+	<body class="login">
+		<div class="headerCenter">
+			<img src="img/login/HUAWEI.png" />
+			<b class="line">|</b>
+			<b class="title"><a href="index.html">华为商城</a></b>
+		</div>
+		<div class="loginBg">
+			<div class="bg">
+				<div class="loginArea r">
+					<div class="h">
+						<span class="loginTitle l active" id="zhangHao">账号登录</span>
+						<span class="loginTitle bl r" id="saoMa">扫码登录</span>
+					</div>
+					<div class="ZH">
+						<div class="top15"></div>
+						<div class="userInput">
+							<input id="userName" type="text" placeholder="手机号" />
+						</div>
+						<div class="userInput">
+							<input id="password" type="password" placeholder="密码" />
+						</div>
+						<div class="link">
+							<img src="img/login/phone.png" class="l" />
+							<span>短信验证码登录</span>
+						</div>
+						<input type="button" value="登录" id="buttonLogin"/>
+						<div class="checkBox">
+							<div class="check l">
+								<i class="noCheck"></i>
+								<b>记住华为账号</b>
+							</div>
+							<span>更多</span>
+						</div>
+						<div class="RF">
+							<span class="regist l">
+								<a href="regist.html">注册账号</a>
+							</span>
+							<span class="forget l">忘记密码</span>
+						</div>
+						<div class="threeLogin">
+							<div class="threeLoginTitle">
+								<i class="before"></i>
+								<span>其他方式登录</span>
+								<i class="after"></i>
+							</div>
+							<div class="threeLoginLogo">
+								<span class="QQ">
+									<a href="#"></a>
+								</span>
+								<span class="Alipay">
+									<a href="#"></a>
+								</span>
+								<span class="weChat">
+									<a href="#"></a>
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class="SM" style="display: none;">
+						<div class="qrCodeMain">
+							<div class="qrCodeImg">
+								<img src="img/login/getqrWeb.png" />
+							</div>
+							<div class="qrCodeHelp">
+								<img src="img/login/way.png" />
+							</div>
+						</div>
+						<div class="qrCodeInfo">
+							<p>
+								使用<span>华为移动服务APP</span>扫一扫
+							</p>
+							<p>若您使用华为手机，请进入“设置”>“华为帐号”扫码登录。</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="loginFooter">
+			<img src="img/login/login-footer.png" />
+		</div>
+	</body>
+</html>

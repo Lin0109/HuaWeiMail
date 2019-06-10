@@ -1,0 +1,388 @@
+#nav{
+	top: 204px;
+}
+
+
+/*hot-board透明度轮播*/
+.slider{
+	width: 1349px;
+	height: 450px!important;
+	position: relative;
+	margin: 0 auto;
+}
+.slider ul{
+	position: absolute;
+	height: 450px!important;
+}
+.slider-img{
+	width: 1349px;
+	height: 450px;
+	position: absolute;
+	opacity: 1;
+	transition: opacity 1s linear;
+}
+.slider-img:first-child{
+	background: url(../img/Honer/HonerLunbo01.jpg)no-repeat center center;
+}
+.slider-img:nth-child(2){
+	background: url(../img/Honer/HonerLunbo02.jpg)no-repeat center center;
+}
+.slider-img:nth-child(3){
+	background: url(../img/Honer/HonerLunbo03.jpg)no-repeat center center;
+}
+.slider-img:nth-child(4){
+	background: url(../img/Honer/HonerLunbo04.jpg)no-repeat center center;
+}
+.slider-img:nth-child(5){
+	background: url(../img/Honer/HonerLunbo05.jpg)no-repeat center center;
+}
+.slider-img:nth-child(6){
+	background: url(../img/Honer/HonerLunbo06.jpg)no-repeat center center;
+}
+.slider-img:nth-child(7){
+	background: url(../img/Honer/HonerLunbo07.jpg)no-repeat center center;
+}
+.slider-img:last-child{
+	background: url(../img/Honer/HonerLunbo08.jpg)no-repeat center center;
+}
+.slider-middle{
+	position: relative;
+	height: 0;
+	float: left;
+}
+.slider-middle-span{
+	text-align: right;
+	position: absolute;
+	top: 400px;
+	right: 0;
+}
+.slider-middle-span span{
+	width: 10px;
+	height: 10px;
+	border-radius: 10px;
+	line-height: 10px;
+	margin-left: 7px;
+	border: 1px solid white;
+	display: inline-block;
+	background-color: transparent;
+}
+.slider-middle .before,
+.slider-middle .after{
+	width: 80px;
+	height: 80px;
+	margin-top: 0;
+	position: relative;
+	display: block;
+	float: left;
+}
+.slider-middle .before{
+	left: 280px;
+	top: 199px;
+	background-position: -340px 0;
+}
+.slider-middle .after{
+	left: 1132px;
+	top: 199px;
+	background-position: -100px 0;
+}
+.slider-middle .before:hover{
+	background-position: -260px 0;
+}
+.slider-middle .after:hover{
+	background-position: -180px 0;
+}
+.hot-board .mask{
+	text-align: center;
+	width: 100%;
+	height: 72px;
+	display: block;
+	position: absolute;
+	bottom: 0;
+	z-index: 1;
+}
+.hot-board .mask span{
+	width: 100%;
+	height: 72px;
+	display: block;
+	background-size: 100% 72px;
+	background: url(../img/index/bg-slide.png)no-repeat;
+}	
+
+
+
+.channelHoner{
+	height: 742px;
+}
+.channelHoner .goodsHoner,.honerGoodsContainer .channel{
+	background: #FFFFFF;
+	border-radius: 5px;
+}
+.channelHoner .goodsHoner .HonerJp{
+	height: 684px;
+	padding: 0 20px 18px;
+	box-shadow: 0 0 15px 6px rgba(44,101,186,0.15);
+}
+.HonerJp .h{
+	float: left;
+	margin: 22px 0 12px;
+	width: 100%;
+	height: 32px;
+	line-height: 32px;
+	position: relative;
+}
+.HonerJp .h .HonerTitle{
+	padding-left: 22px;
+	font-size: 24px;
+}
+.HonerJp .h .HonerTitle:after{
+	content: '';
+	display: inline-block;
+	width: 8px;
+	height: 32px;
+	position: absolute;
+	left: 0;
+	background: #CD141D;
+	border-radius: 3px;
+}
+.hr40{
+	height: 40px;
+}
+.honerGoodsList{
+	float: left;
+	width: 100%;
+	height: 375px;
+	border: 1px solid #DEDEDE;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.honerItem{
+	float: left;
+	text-align: center;
+	width: 289.25px;
+	height: 378px;
+	border-right: 1px solid #DEDEDE;
+}
+.honerItem .honerGoodsImg{
+	width: 200px;
+	height: 200px;
+	margin: 36px auto 0;
+}
+.honerItem .honerGoodsImg img{
+	width: 100%;
+	height: 100%;
+}
+.honerItem .honerGoodsTitle{
+	padding: 30px 16px 2px 16px;
+	font-size: 18px;
+	line-height: 1.1;
+	vertical-align: bottom;
+	font-weight: 400;
+	color: #333333;
+}
+.honerItem .honerGoodsInfo{
+	font-size: 14px;
+	line-height: 28px;
+	font-weight: 400;
+	color: #A4A4A4;
+}
+.honerItem .honerGoodsPrice{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 34px;
+	color: #CD141D;
+}
+.honerItem:hover,.span370 li:hover,.span300 li:hover{
+	box-shadow: 0 0 35px 2px rgba(44,0,0,0.15) inset;
+}
+.honerGoodsList .honerItem:last-child{
+	border: 0;
+}
+.adList{
+	border: 1px solid #DEDEDE;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.adList img{
+	float: left;
+	width: 33.276%;
+	border-right: 1px solid #DEDEDE;
+}
+.adList img:last-child{
+	float: right;
+	border: 0;
+}
+.hr10{
+	float: left;
+	width: 100%;
+	height: 10px;
+}
+.hr20{
+	float: left;
+	width: 100%;
+	height: 20px;
+}
+.honerGoodsContainer{
+	width: 100%;
+	height: 3478px;
+}
+.Honer .h{
+	float: left;
+	margin: 22px 0 12px;
+	width: 100%;
+	height: 32px;
+	line-height: 32px;
+	position: relative;
+}
+.Honer .h .HonerTitle{
+	padding-left: 22px;
+	font-size: 24px;
+}
+.Honer .h .HonerTitle:after{
+	content: '';
+	display: inline-block;
+	width: 8px;
+	height: 32px;
+	position: absolute;
+	left: 0;
+	background: #CD141D;
+	border-radius: 3px;
+}
+.Honer{
+	padding: 0 20px 18px;
+	box-shadow: 0 0 15px 6px rgba(44,101,186,0.15);
+}
+.nav{
+	padding-left: 40px;
+}
+.nav li,.more{
+	float: left;
+	font-size: 18px;
+	height: 32px;
+	width: 100px;
+}
+.more{
+	float: right;
+}
+.span370,.span370 li,.span370 li img{
+	width: 370px;
+	height: 490px;
+	border: none;
+}
+.span370,.span790{
+	margin-top: 10px;
+}
+.span790{
+	width: 790px;
+}
+.Honer li{
+	border-radius: 5px;
+	overflow: hidden;
+}
+.span373{
+	width: 373px;
+}
+.honerItem02{
+	height: 235px;
+}
+.honerItem02{
+	border: 1px solid #DEDEDE;
+	margin: 0 0 20px 20px;
+	position: relative;
+	float: left;
+}
+.honerItem02 .honerGoodsImg{
+	width: 150px;
+	height: 150px;
+	margin: 40px 0 0 20px;
+}
+.honerItem02 .honerGoodsImg img{
+	width: 100%;
+	height: 100%;
+}
+.honerItem02 .honerGoodsPro{
+	position: absolute;
+	top: 56px;
+	left: 190px;
+	text-align: left;
+}
+.honerItem02 .honerGoodsTitle{
+	padding-left: 0;
+	padding-bottom: 10px;
+}
+#flow01 .span370 li{
+	background: url(../img/Honer/phone.jpg);
+}
+#flow02 .span370 li{
+	background: url(../img/Honer/PC.png);
+}
+#flow03 .span370 li{
+	background: url(../img/Honer/Watch.png);
+}
+#flow01,#flow02,#flow03{
+	height: 574px;
+}
+#flow04,#flow05{
+	height: 712px;
+}
+.span300{
+	width: 300px;
+}
+.span860{
+	width: 860px;
+}
+.span300,.span300 li,.span300 li img{
+	width: 300px;
+	height: 606px;
+	border: none;
+}
+#flow04 .span300 li{
+	background: url(../img/Honer/jiaJu.png);
+}
+#flow05 .span300 li{
+	background: url(../img/Honer/peiJian.png);
+}
+.span300,.span860{
+	margin-top: 20px;
+}
+.span410,.span410 .honerGoodsImg,.span410 .honerGoodsImg img{
+	width: 408px;
+	height: 292px;
+}
+.span410 .honerGoodsImg{
+	margin: 0;
+}
+.span410 .honerGoodsPro{
+	background: rgba(0,0,0,0.25);
+	width: 100%;
+	height: 78px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	top: auto;
+	padding-left: 20px;
+}
+.span410 .honerGoodsTitle,.span410 .honerGoodsPrice{
+	height: 28px;
+	line-height: 28px;
+	padding: 0;
+	color: #FFFFFF;
+	margin-top: 10px;
+	font-size: 18px;
+}
+.span410:hover .honerGoodsPro{
+	background: rgba(250,0,0,0.75);
+}
+.span266{
+	width: 264px;
+	height: 290px;
+}
+.span266 .honerGoodsImg{
+	margin: 20px auto 0;
+}
+.span266 .honerGoodsPro{
+	bottom: 0;
+	left: 0;
+	top: auto;
+	width: 100%;
+	text-align: center;
+}

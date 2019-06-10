@@ -1,0 +1,252 @@
+
+.headerCenter .line{
+	color: #cccccc;
+}
+.headerCenter .title a{
+	color: #333333;
+}
+.loginBg{
+	background-color: #081638;
+}
+.loginBg .bg{
+	background: url(../img/login/login_default_bg.png)no-repeat;
+	width: 1130px;
+	height: 590px;
+	margin: 0 auto;
+	position: relative;
+}
+.loginBg .loginArea{
+	width: 380px;
+	height: 530px;
+	background: #FFFFFF;
+	margin: 30px 0;
+	position: relative;
+}
+.loginArea .h{
+	width: 100%;
+	height: 26px;
+	margin: 24px auto;
+	text-align: center;
+}
+.loginArea .h .loginTitle{
+	font-family: "Microsoft YaHei" ! important;
+	font-size: 20px;
+	font-weight: 500;
+	width: 169px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	padding: 0 10px;
+}
+.loginArea .h .bl{
+	border-left: 1px solid #CCCCCC;
+}
+.active{
+	color: #B40707;
+}
+
+.loginArea .ZH{
+	width: 328px;
+	margin: 0 auto;
+}
+.ZH .top15{
+	height: 15px;
+	color: #C70000;
+}
+.userInput{
+	height: 46px;
+	padding: 0;
+	border-bottom: 1px solid #CCCCCC;
+}
+.userInput input{
+	width: 100%;
+	height: 46px;
+	line-height: 46px;
+	font-size: 14px;
+	color: #333333;
+	border: none;
+}
+.ZH .link{
+	padding: 16px 0;
+	height: 14px;
+	text-align: center;
+	line-height: 1;
+}
+.ZH .link img{
+	margin-top: -4px;
+}
+.ZH .link span{
+	color: #007dff;
+	float: left;
+}
+#buttonLogin{
+	display: block;
+	width: 100%;
+	height: 44px;
+	line-height: 44px;
+	font-size: 14px;
+	font-weight: bold;
+	background: #B40707;
+	color: #FFFFFF;
+	text-align: center;
+	border-radius: 26px;
+	border: none;
+}
+#buttonLogin:hover{
+	background: #c70000;
+}
+.checkBox{
+	padding: 16px 0;
+	width: 100%;
+	height: 18px;
+	position: relative;
+}
+.checkBox span{
+	float: right;
+	color: #007dff;
+}
+.checkBox .check i{
+	width: 18px;
+	height: 18px;
+	display: block;
+	float: left;
+	margin-right: 5px;
+}
+.noCheck{
+	background: url(../img/icon/check-off.png);
+}
+.checked{
+	background: url(../img/icon/check-on.png);
+}
+
+
+.RF{
+	width: 117px;
+	text-align: center;
+	line-height: 1.3;
+	height: 15px;
+	color: #007DFF;
+	margin: 0 auto;
+}
+.RF .regist{
+	padding-right: 10px;
+	border-right: 1px solid #CCCCCC;
+}
+.RF .regist a{
+	color: #007DFF;
+}
+.RF .forget{
+	padding-left: 10px;
+}
+
+.threeLogin{
+	width: 328px;
+	height: 82px;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	color: #999999;
+	line-height: 16px;
+}
+.threeLogin .threeLoginTitle{
+	width: 100%;
+	margin-bottom: 10px;
+	position: relative;
+}
+.threeLogin .threeLoginTitle i{
+	display: block;
+	position: absolute;
+	width: 94px;
+	height: 16px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.threeLogin .threeLoginTitle .before{
+	left: 0;
+	background: url(../img/icon/横线.png)no-repeat;
+}
+.threeLogin .threeLoginTitle .after{
+	right: 0;
+	bottom: 0;
+	background: url(../img/icon/横线2.png);
+}
+.threeLogin .threeLoginLogo{
+	width: 186px;
+	height: 44px;
+	margin-bottom: 10px;
+	margin: 0 auto;
+}
+.threeLogin .threeLoginLogo span{
+	width: 42px;
+	height: 42px;
+	padding: 0 10px;
+	display: inline-block;
+	float: left;
+}
+.threeLogin .threeLoginLogo span a{
+	display: inline-block;
+	width: 42px;
+	height: 42px;
+	background-repeat: no-repeat;
+}
+.threeLogin .threeLoginLogo .QQ a{
+	background: url(../img/icon/qq.png)no-repeat;
+	background-size: 100%;
+}
+.threeLogin .threeLoginLogo .Alipay a{
+	background: url(../img/icon/Alipay.png)no-repeat;
+	background-size: 100%;
+}
+.threeLogin .threeLoginLogo .weChat a{
+	background: url(../img/icon/weChat.png)no-repeat;
+	background-size: 100%;
+}
+.threeLogin .threeLoginLogo .QQ a:hover{
+	background: url(../img/icon/qq-Hover.png)no-repeat;
+	background-size: 100%;
+}
+.threeLogin .threeLoginLogo .Alipay a:hover{
+	background: url(../img/icon/Alipay-Hover.png)no-repeat;
+	background-size: 100%;
+}
+.threeLogin .threeLoginLogo .weChat a:hover{
+	background: url(../img/icon/WeChat-Hover.png)no-repeat;
+	background-size: 100%;
+}
+
+.SM .qrCodeMain{
+	width: 380px;
+	height: 318px;
+	position: relative;
+}
+.SM .qrCodeMain .qrCodeImg{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	top: 67px;
+	left: 109px;
+	display: inline-block;
+	padding: 5px;
+	border: 1px solid #999999;
+	transition: left .5s ease; 
+}
+.SM .qrCodeMain .qrCodeHelp{
+	position: absolute;
+	right: 20px;
+	top: 40px;
+	opacity: 0;
+	transition: opacity .5s ease;
+}
+.SM .qrCodeInfo{
+	width: 360px;
+	padding: 0 10px;
+	text-align: center;
+}
+.SM .qrCodeInfo p{
+	font-size: 13px;
+	padding: 5px 0;
+}
+.SM .qrCodeInfo p span{
+	color: #007DFF;
+}
+

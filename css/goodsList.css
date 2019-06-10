@@ -1,0 +1,193 @@
+.hr10{
+	height: 10px;
+}
+.titleArea{
+	margin-left: 2px;
+	padding-top: 10px;
+	line-height: 1.5;
+}
+.fn{
+	font-family: \5b8b\4f53;
+}
+
+
+
+.pro{
+	height: 123px;
+}
+.proArea{
+	border: 1px solid #dedede;
+	font-family: 'Tahoma',"Microsoft Yahei";
+}
+.proAttr{
+	border-bottom: 1px solid #DEDEDE;
+}
+.proAttr,.proSort{
+	height: 50px;
+}
+.proArea .pTitle{
+	width: 86px;
+	padding: 0;
+	padding-top: 16px;
+	text-align: right;
+	float: left;
+	font-size: 12px;
+	line-height: 1.5;
+}
+.proArea .pValues{
+	padding: 10px 0;
+	margin-left: 95px;
+}
+.proArea .pValues ul{
+	height: 30px;
+}
+.proArea .pValues li{
+	float: left;
+	margin-right: 20px;
+	padding: 6px 0;
+	height: 18px;
+}
+.proArea .pValues li a{
+	color: #999999;
+}
+.proArea .pValues li a:hover{
+	color: #666666;
+}
+.proArea .pValues .active a{
+	color: #CD141D;
+}
+.proArea .pValues .active a:hover{
+	color: #CD141D;
+}
+.proSort .pValues li i{
+	margin-left: 2px;
+	float: right;
+	display: block;
+	width: 12px;
+	height: 14px;
+}
+.proSort .pValues li:first-child i{
+	background: url(../img/goodsList/red.png);
+	background-position: 0 -2px;
+}
+.proSort .pValues li:nth-child(2) i{
+	background: url(../img/goodsList/gray.png);
+}
+.proSort .pValues li:last-child i{
+	background: url(../img/goodsList/jtou.png);
+	background-position: -2px -2px;
+}
+
+
+.channelList{
+	width: 1220px;
+	height: 1592px;
+	padding-bottom: 20px;
+	position: relative;
+}
+.channelList ul li{
+	float: left;
+	width: 20%;
+}
+.channelList .goodsBox{
+	height: 362px;
+	margin: 0 20px 20px 0;
+	border: 1px solid #DEDEDE;
+	position: relative;
+	text-align: center;
+	overflow: hidden;
+}
+.channelList .goodsBox .pImg{
+	padding: 38px 0 24px;
+	text-align: center;
+}
+.channelList .goodsBox .pImg img{
+	width: 180px;
+	height: 180px;
+	vertical-align: top;
+}
+.channelList .goodsBox .pName{
+	line-height: 16px;
+	padding: 0 20px;
+	height: 38px;
+}
+.channelList .goodsBox .pName a{
+	color: #666666;
+}
+.channelList .goodsBox .pName a:hover{
+	color: #CD141D;
+}
+.channelList .goodsBox .pPrice{
+	font-size: 18px;
+	color: #e01d20;
+	line-height: 30px;
+	font-weight: 400;
+}
+.channelList .goodsBox .pButtom{
+	position: absolute;
+	width: 222px;
+	left: -1px;
+	bottom: -1px;
+	border: 1px solid #DEDEDE;
+}
+.channelList .goodsBox .pButtom .pBox{
+	width: 110px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+}
+.bRed{
+	border-right: 1px solid #DEDEDE;
+}
+.bRed a{
+	color: #CD141D;
+}
+.bRed:hover{
+	background: #CD141D;
+}
+.bRed:hover a{
+	color: white;
+}
+
+.listPage{
+	width: 300px;
+	height: 30px;
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+}
+.listPage .nextPage{
+	float: left;
+	width: 29px;
+	height: 29px;
+	line-height: 30px;
+	margin-left: 10px;
+	background: #fafafa;
+	color: #adadad;
+	text-align: center;
+	border: 1px solid#dddcdb;
+	font-family: tahoma;
+}
+.listPage a{
+	float: left;
+	display: block;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	margin-left: 5px;
+}
+#first{
+	background-position: 10px -76px;
+}
+.active{
+	color: #CD141D;
+}
+.last:hover{
+	background: #3a3a3a;
+	border-color: #3a3a3a;
+	color: white;
+}
+.channelList .goodsBox:hover{
+	border: 1px solid #CD141D;
+}

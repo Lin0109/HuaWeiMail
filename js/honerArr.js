@@ -1,0 +1,176 @@
+var honerGoods01 = [
+{
+	'src':'img/Honer/goodsTop01.png',
+	'title':'荣耀10',
+	'info':'限时优惠600',
+	'price':'¥3399'
+},
+{
+	'src':'img/Honer/goodsTop02.png',
+	'title':'荣耀8X',
+	'info':'限时优惠600',
+	'price':'¥1399'
+},
+{
+	'src':'img/Honer/goodsTop03.png',
+	'title':'荣耀10',
+	'info':'限时优惠600',
+	'price':'¥3399'
+},
+{
+	'src':'img/Honer/goodsTop04.png',
+	'title':'荣耀8X',
+	'info':'限时优惠600',
+	'price':'¥1399'
+}
+]
+
+var honerGoods02 = [
+{
+	'src':'img/Honer/phone01.png',
+	'title':'荣耀10',
+	'info':'限时优惠600',
+	'price':'¥3399'
+},
+{
+	'src':'img/Honer/phone02.png',
+	'title':'荣耀8X',
+	'info':'限时优惠600',
+	'price':'¥1399'
+},
+{
+	'src':'img/Honer/phone03.png',
+	'title':'荣耀10',
+	'info':'限时优惠600',
+	'price':'¥3399'
+},
+{
+	'src':'img/Honer/phone04.png',
+	'title':'荣耀8X',
+	'info':'限时优惠600',
+	'price':'¥1399'
+}
+]
+
+var honerGoods03 = [
+{
+	'src':'img/Honer/PC01.png',
+	'title':'荣耀10',
+	'info':'限时优惠600',
+	'price':'¥3399'
+},
+{
+	'src':'img/Honer/PC02.png',
+	'title':'荣耀8X',
+	'info':'限时优惠600',
+	'price':'¥1399'
+},
+{
+	'src':'img/Honer/PC03.png',
+	'title':'荣耀10',
+	'info':'限时优惠600',
+	'price':'¥3399'
+},
+{
+	'src':'img/Honer/PC04.png',
+	'title':'荣耀8X',
+	'info':'限时优惠600',
+	'price':'¥1399'
+}
+]
+
+
+var honerGoods04 = [
+{
+	'src':'img/Honer/Watch01.png',
+	'title':'荣耀10',
+	'info':'限时优惠600',
+	'price':'¥3399'
+},
+{
+	'src':'img/Honer/Watch02.png',
+	'title':'荣耀8X',
+	'info':'限时优惠600',
+	'price':'¥1399'
+},
+{
+	'src':'img/Honer/Watch03.png',
+	'title':'荣耀10',
+	'info':'限时优惠600',
+	'price':'¥3399'
+},
+{
+	'src':'img/Honer/Watch04.png',
+	'title':'荣耀8X',
+	'info':'限时优惠600',
+	'price':'¥1399'
+}
+]
+
+var honerGoods05 = [
+{
+	'src':'img/Honer/jiaJu01.png',
+	'title':'荣耀10',
+	'price':'¥3399'
+},
+{
+	'src':'img/Honer/jiaJu01.png',
+	'title':'荣耀8X',
+	'price':'¥1399'
+}
+]
+
+var honerGoods06 = [
+{
+	'src':'img/Honer/jiaJu03.png',
+	'title':'荣耀10',
+	'info':'限时优惠600',
+	'price':'¥3399'
+},
+{
+	'src':'img/Honer/jiaJu04.png',
+	'title':'荣耀8X',
+	'info':'限时优惠600',
+	'price':'¥1399'
+},
+{
+	'src':'img/Honer/jiaJu05.png',
+	'title':'荣耀10',
+	'info':'限时优惠600',
+	'price':'¥3399'
+}
+]
+
+var honerGoods07 = [
+{
+	'src':'img/Honer/peiJian01.png',
+	'title':'荣耀10',
+	'price':'¥3399'
+},
+{
+	'src':'img/Honer/peiJian02.png',
+	'title':'荣耀8X',
+	'price':'¥1399'
+}
+]
+
+var honerGoods08 = [
+{
+	'src':'img/Honer/peiJian03.png',
+	'title':'荣耀10',
+	'info':'限时优惠600',
+	'price':'¥3399'
+},
+{
+	'src':'img/Honer/peiJian04.png',
+	'title':'荣耀8X',
+	'info':'限时优惠600',
+	'price':'¥1399'
+},
+{
+	'src':'img/Honer/peiJian05.png',
+	'title':'荣耀10',
+	'info':'限时优惠600',
+	'price':'¥3399'
+}
+]
