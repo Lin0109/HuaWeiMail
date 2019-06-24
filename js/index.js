@@ -337,15 +337,15 @@ $(function(){
 	
 	//智能家居水平轮播
 	var count02 = 0;
-	var w02 =-( $('#goodsJu .lunbo-03').width()-1214 );
+	var w02 =-( $('#goodsJu .lunbo-03').width()-1212 );
 	//向前
 	$('#goodsJu .goodsPrev').click(function(){
 		count02 --;
-		var before = -count02*1210;
+		var before = -count02*1212;
 		$('#goodsJu .lunbo-03').css('left',before);
-		var left02 = $('#goodsJu .lunbo-03').position().left + 1210;
+		var left02 = $('#goodsJu .lunbo-03').position().left + 1212;
 		console.log('left02'+left02);
-		if(left02>=0&&left02<1210){
+		if(left02>=0&&left02<1212){
 			$('#goodsJu .goodsPrev').css('display','none');
 		}
 		if(left02 > w02){
@@ -355,9 +355,9 @@ $(function(){
 	//向后
 	$('#goodsJu .goodsNext').click(function(){
 		count02 ++;
-		var after = -count02*1210;
+		var after = -count02*1212;
 		$('#goodsJu .lunbo-03').css('left',after);
-		var left02 = $('#goodsJu .lunbo-03').position().left - 1210;
+		var left02 = $('#goodsJu .lunbo-03').position().left - 1212;
 		if(left02 < 0){
 			$('#goodsJu .goodsPrev').css('display','block');
 		}
@@ -402,14 +402,14 @@ $(function(){
 	
 	//智能家居水平轮播
 	var count03 = 0;
-	var w03 =-( $('#goodsRx .lunbo-03').width()-1214 );
+	var w03 =-( $('#goodsRx .lunbo-03').width()-1212 );
 	//向前
 	$('#goodsRx .goodsPrev').click(function(){
 		count03 --;
-		var before = -count03*1210;
+		var before = -count03*1212;
 		$('#goodsRx .lunbo-03').css('left',before);
-		var left03 = $('#goodsRx .lunbo-03').position().left + 1210;
-		if(left03>=0&&left03<1210){
+		var left03 = $('#goodsRx .lunbo-03').position().left + 1212;
+		if(left03>=0&&left03<1212){
 			$('#goodsRx .goodsPrev').css('display','none');
 		}
 		if(left03 > w03){
@@ -419,9 +419,9 @@ $(function(){
 	//向后
 	$('#goodsRx .goodsNext').click(function(){
 		count03 ++;
-		var after = -count03*1210;
+		var after = -count03*1212;
 		$('#goodsRx .lunbo-03').css('left',after);
-		var left03 = $('#goodsRx .lunbo-03').position().left - 1210;
+		var left03 = $('#goodsRx .lunbo-03').position().left - 1212;
 		if(left03 < 0){
 			$('#goodsRx .goodsPrev').css('display','block');
 		}
