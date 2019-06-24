@@ -18,7 +18,7 @@
 #goodsPb .goods-item:hover,
 #goodsCd .goods-list .goods-item:hover,
 #goodsJu .goods-list .goods-item:hover,
-#goodsRx .goods-list.goods-item:hover{
+#goodsRx .goods-list .goods-item:hover{
 	box-shadow: 0 12px 36px rgba(0,0,0,0.1);
 }
 
@@ -335,7 +335,6 @@ header{
 .slider-middle{
 	position: relative;
 	height: 0;
-	float: left;
 }
 .slider-middle-span{
 	text-align: right;
@@ -365,12 +364,12 @@ header{
 	cursor: pointer;
 }
 .slider-middle .before{
-	left: 280px;
+	left: 204px;
 	top: 199px;
 	background-position: -340px 0;
 }
 .slider-middle .after{
-	left: 1132px;
+	left: 1110px;
 	top: 199px;
 	background-position: -100px 0;
 }
@@ -394,7 +393,7 @@ header{
 	height: 72px;
 	display: block;
 	background-size: 100% 72px;
-	background: url(../img/index/bg-slide.png)no-repeat;
+	background: url(../img/index/bg-slide.png) center centerno-repeat;
 }
 /*home-menu*/
 .relative{
@@ -834,6 +833,7 @@ header{
 	border-radius: 10px;
 	opacity: 0;
 	transition: opacity 1s linear;
+	cursor: pointer;
 }
 .ec-slider-item:first-child{
 	opacity: 1;
@@ -1006,6 +1006,7 @@ header{
 /*banner*/
 .ec-slider img{
 	border-radius: 10px;
+	cursor: pointer;
 }
 
 /*footerImg*/
@@ -1016,7 +1017,9 @@ header{
 	border-radius: 10px;
 	overflow: hidden;
 }
-
+.footerImg{
+	cursor: pointer;
+}
 
 /*hungBar*/
 .hungBar{
