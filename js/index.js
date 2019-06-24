@@ -270,15 +270,15 @@ $(function(){
 	
 	//智能穿戴水平轮播
 	var count01 = 0;
-	var w01 =-( $('#goodsCd .lunbo-03').width()-1214 );
+	var w01 =-( $('#goodsCd .lunbo-03').width()-1212 );
 	//向前
 	$('#goodsCd .goodsPrev').click(function(){
 		count01 --;
-		var before = -count01*1210;
+		var before = -count01*1212;
 		$('#goodsCd .lunbo-03').css('left',before);
-		var left01 = $('#goodsCd .lunbo-03').position().left + 1210;
+		var left01 = $('#goodsCd .lunbo-03').position().left + 1212;
 		console.log('left01'+left01);
-		if(left01>=0&&left01<1210){
+		if(left01>=0&&left01<1212){
 			console.log(left01);
 			$('#goodsCd .goodsPrev').css('display','none');
 		}
@@ -289,9 +289,9 @@ $(function(){
 	//向后
 	$('#goodsCd .goodsNext').click(function(){
 		count01 ++;
-		var after = -count01*1210;
+		var after = -count01*1212;
 		$('#goodsCd .lunbo-03').css('left',after);
-		var left01 = $('#goodsCd .lunbo-03').position().left - 1210;
+		var left01 = $('#goodsCd .lunbo-03').position().left - 1212;
 		console.log('left01-after'+left01);
 		if(left01 < 0){
 			$('#goodsCd .goodsPrev').css('display','block');
@@ -431,12 +431,12 @@ $(function(){
 		}
 	})
 	
-	var m01 = $('#goods01').offset().top;
-	var m02 = $('#goodsPC').offset().top;
-	var m03 = $('#goodsPb').offset().top;
-	var m04 = $('#goodsCd').offset().top;
-	var m05 = $('#goodsJu').offset().top;
-	var m06 = $('#goodsRx').offset().top;
+	var m01 = $('#goods01').offset().top-10;
+	var m02 = $('#goodsPC').offset().top-10;
+	var m03 = $('#goodsPb').offset().top-10;
+	var m04 = $('#goodsCd').offset().top-10;
+	var m05 = $('#goodsJu').offset().top-10;
+	var m06 = $('#goodsRx').offset().top-10;
 	//出现回到顶部图标，出现锚点导航
 	$(document).scroll(function(){
 		var top = $(document).scrollTop();
@@ -472,7 +472,7 @@ $(function(){
 	})
 	//回到顶部
 	$('.hungBar-top').click(function(){
-		$(document).scrollTop(0);
+		$('html,body').animate({scrollTop:'0px'},1000);
 	})
 	
 	function change(nowindex){		
