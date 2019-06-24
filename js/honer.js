@@ -171,7 +171,7 @@ $(function(){
 		var str05 = `<a href="#">
 							<li class="honerItem span410 honerItem02">
 								<div class="honerGoodsImg">
-									<img src=${event.src}/>
+									<img src=${event.src}>
 								</div>
 								<div class="honerGoodsPro">
 									<p class="honerGoodsTitle">${event.title}</p>
@@ -187,7 +187,7 @@ $(function(){
 		var str06 = `<a href="#">
 							<li class="honerItem span266 honerItem02">
 								<div class="honerGoodsImg">
-									<img src=${event.src} />
+									<img src=${event.src}>
 								</div>
 								<div class="honerGoodsPro">
 									<p class="honerGoodsTitle">${event.title}</p>
@@ -205,7 +205,7 @@ $(function(){
 		var str07 = `<a href="#">
 							<li class="honerItem span410 honerItem02">
 								<div class="honerGoodsImg">
-									<img src=${event.src}/>
+									<img src=${event.src}>
 								</div>
 								<div class="honerGoodsPro">
 									<p class="honerGoodsTitle">${event.title}</p>
@@ -221,7 +221,7 @@ $(function(){
 		var str08 = `<a href="#">
 							<li class="honerItem span266 honerItem02">
 								<div class="honerGoodsImg">
-									<img src=${event.src} />
+									<img src=${event.src}>
 								</div>
 								<div class="honerGoodsPro">
 									<p class="honerGoodsTitle">${event.title}</p>
