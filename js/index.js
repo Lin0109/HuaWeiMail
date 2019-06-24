@@ -84,7 +84,7 @@ $(function(){
 			$('.move-top').css('transition','1s');
 			moveTop();
 		}
-	},3000)
+	},4000)
 	function moveTop(){
 		var nowtop = -jNow*43;
 		$('.move-top').css('margin-top',nowtop);
