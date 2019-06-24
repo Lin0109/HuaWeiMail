@@ -128,7 +128,7 @@
 	width: 222px;
 	left: -1px;
 	bottom: -1px;
-	border: 1px solid #DEDEDE;
+	border-top: 1px solid #DEDEDE;
 }
 .channelList .goodsBox .pButtom .pBox{
 	width: 110px;
