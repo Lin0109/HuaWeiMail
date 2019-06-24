@@ -352,6 +352,7 @@ header{
 	border: 1px solid white;
 	display: inline-block;
 	background-color: transparent;
+	cursor: pointer;
 }
 .slider-middle .before,
 .slider-middle .after{
@@ -875,6 +876,7 @@ header{
 	margin-left: 9px;
 	background-color: transparent;
 	border: 1px solid #FFFFFF;
+	cursor: pointer;
 }
 .ec-slider-nav span:first-child{
 	background-color: white;
