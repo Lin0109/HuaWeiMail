@@ -47,7 +47,7 @@ $(function(){
 				}
 				changePic(iNow);
 				iNow++;
-			},2000)
+			},5000)
 		}
 		//向前
 		$('.before').click(function(){
@@ -187,7 +187,7 @@ $(function(){
 			}
 			changePic01(tNow);
 			tNow++;
-		},2000)
+		},4000)
 	}
 	
 	//第二部分goods01动态添加
