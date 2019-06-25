@@ -358,6 +358,7 @@ header{
 	top: 0;
 	right: 1px;
 	outline: none;
+	cursor: pointer;
 }
 .search-text{
 	position: absolute;
