@@ -10,6 +10,6 @@ $(function(){
 	})
 	//回到顶部
 	$('.hungBar-top').click(function(){
-		$(document).scrollTop(0);
+		$('html,body').animate({scrollTop:'0px'},1000);
 	})
 })
