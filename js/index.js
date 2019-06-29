@@ -23,18 +23,31 @@ $(function(){
 		}	
 		function bind(index){
 			$('.slider-middle-span span').eq(index).hover(function(){
+				console.log(index);
 				clearInterval(timer);
-				iNow = index+1;
+				iNow = index;
 				changePic( index );
+			},function(){
+				inter();
+			})
+			$('.slider-img').eq(index).hover(function(){
+				console.log(index);
+				console.log($('.slider-img').eq(index));
+				clearInterval(timer);
+				iNow = index;
+				changePic( index );
+			},function(){
 				inter();
 			})
 		}	
 		function changePic( index ){
 			for(var j=0;j<$('.slider-img').length;j++){
 				$('.slider-img').eq(j).css('opacity',0);
+				$('.slider-img').eq(j).css('z-index',0);
 				$('.slider-middle-span span').eq(j).css('backgroundColor','transparent');
 				if(j==index){
 					$('.slider-img').eq(index).css('opacity',1);
+					$('.slider-img').eq(index).css('z-index',1);
 					$('.slider-middle-span span').eq(index).css('backgroundColor','white');
 				}
 			}
@@ -42,11 +55,11 @@ $(function(){
 		//定时器
 		function inter(){
 			timer = setInterval(function(){
+				iNow++;
 				if(iNow>7){
 					iNow = 0;
 				}
 				changePic(iNow);
-				iNow++;
 			},5000)
 		}
 		//向前
@@ -84,7 +97,7 @@ $(function(){
 			$('.move-top').css('transition','1s');
 			moveTop();
 		}
-	},4000)
+	},3000)
 	function moveTop(){
 		var nowtop = -jNow*43;
 		$('.move-top').css('margin-top',nowtop);
@@ -164,17 +177,28 @@ $(function(){
 	function bind(index){
 		$('.ec-slider-nav span').eq(index).hover(function(){
 			clearInterval(timer01);
-			tNow = index+1;
+			tNow = index;
 			changePic01( index );
+		},function(){
+			inter01();
+		})
+		$('.ec-slider-item').eq(index).hover(function(){
+			console.log(index);
+			clearInterval(timer01);
+			tNow = index;
+			changePic01( index );
+		},function(){
 			inter01();
 		})
 	}
 	function changePic01( index ){
 			for(var j=0;j<$('.ec-slider-item').length;j++){
 				$('.ec-slider-item').eq(j).css('opacity',0);
+				$('.ec-slider-item').eq(j).css('z-index',0);
 				$('.ec-slider-nav span').eq(j).css('backgroundColor','transparent');
 				if(j==index){
 					$('.ec-slider-item').eq(index).css('opacity',1);
+					$('.ec-slider-item').eq(index).css('z-index',1);
 					$('.ec-slider-nav span').eq(index).css('backgroundColor','white');
 				}
 			}
@@ -182,11 +206,12 @@ $(function(){
 	//定时器
 	function inter01(){
 		timer01 = setInterval(function(){
+			tNow++;
 			if(tNow>7){
 				tNow = 0;
 			}
 			changePic01(tNow);
-			tNow++;
+			console.log(tNow);
 		},4000)
 	}
 	
@@ -477,9 +502,7 @@ $(function(){
 	
 	function change(nowindex){		
 		$('.hover-list li').each(function(index, element){
-			console.log(element);
 			if(index == nowindex){
-				console.log('222222'+index)
 				$('.hover-list li a').eq(index).css('color','#CB242B');
 			    $('.event-right .hover-list li div').eq(index).css('height','18px');
 			}else{
