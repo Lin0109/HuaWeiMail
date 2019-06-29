@@ -304,11 +304,13 @@ header{
 	width: 100%;
 	height: 550px;
 	position: absolute;
-	opacity: 1;
+	opacity: 0;
 	transition: opacity 1s linear;
+	cursor: pointer;
 }
 .slider-img:first-child{
-	/*display: block;*/
+	opacity: 1;
+	z-index: 1;
 	background: url(../img/index/lunbo/header_lunbo_01.jpg)no-repeat center center;
 }
 .slider-img:nth-child(2){
@@ -341,6 +343,7 @@ header{
 	position: absolute;
 	top: 448px;
 	right: 0;
+	z-index: 2;
 }
 .slider-middle-span span{
 	width: 10px;
@@ -353,6 +356,9 @@ header{
 	background-color: transparent;
 	cursor: pointer;
 }
+.slider-middle-span span:first-child{
+	background-color: white;
+}
 .slider-middle .before,
 .slider-middle .after{
 	width: 80px;
@@ -362,6 +368,7 @@ header{
 	display: block;
 	float: left;
 	cursor: pointer;
+	z-index: 2;
 }
 .slider-middle .before{
 	left: 204px;
@@ -386,14 +393,14 @@ header{
 	display: block;
 	position: absolute;
 	bottom: 0;
-	z-index: 1;
+	z-index: 2;
 }
 .hot-board .mask span{
 	width: 100%;
 	height: 72px;
 	display: block;
 	background-size: 100% 72px;
-	background: url(../img/index/bg-slide.png) center centerno-repeat;
+	background: url(../img/index/bg-slide.png) center center no-repeat;
 }
 /*home-menu*/
 .relative{
@@ -623,6 +630,8 @@ header{
 }
 .home-hot-goods .b .span-232 img{
 	border-radius: 10px;
+	/*margin-left: 12px;*/
+	margin-bottom: 12px;
 	margin-top: 0;
 }
 .home-hot-goods .b .span-968{
@@ -835,7 +844,7 @@ header{
 }
 .ec-slider-item:first-child{
 	opacity: 1;
-	/*display: block;*/
+	z-index: 1;
 	background: url(../img/index/home-banner-lunbo/banner-lunbo-01.png)no-repeat;
 }
 .ec-slider-item:nth-child(2){
@@ -863,6 +872,7 @@ header{
 	position: absolute;
 	right: 14px;
 	bottom: 20px;
+	z-index: 2;
 }
 .ec-slider-nav span{
 	float: left;
@@ -1018,6 +1028,7 @@ header{
 .footerImg{
 	cursor: pointer;
 }
+
 
 /*hungBar*/
 .hungBar{
