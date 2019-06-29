@@ -241,6 +241,12 @@
 	margin-right: 6px;
 	border-right: 1px solid #D3D3D3;
 }
+.footer-link li:last-child{
+	border: none;
+}
+.footer-link li a{
+	color: #777777;
+}
 .footer span{
 	color: #A4A4A4;
 }
